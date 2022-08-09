@@ -13,10 +13,18 @@
     },
     "boundingVolume": {
       "height": 1.7,
+      "height_c": 2,
+      "radius": 0.43,
+      "type": "Capsule"
+    },
+    "boundingVolumeEntityCfg": {
+      "height": 1.7,
+      "height_c": 2,
       "radius": 0.43,
       "type": "Capsule"
     },
     "canRevive": true,
+    "collision": true,
     "deadAction": {
       "deathHideTime": {
         "value": 60
@@ -27,7 +35,7 @@
       "value": 60
     },
     "isPlayer": true,
-    "maxHp": 30,
+    "maxHp": 100,
     "name": {
       "value": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d"
     },
@@ -147,7 +155,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "b091288a91aebaa2eac20a87511c7c12",
+      "setting.json": "10f0dc18c42bca38c0923c4b3c725dd1",
       "triggers.bts": "2c3b3bd26daa690804a9fd3e35b98783"
     },
     "VERSION": "0.22"

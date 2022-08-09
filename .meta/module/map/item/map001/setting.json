@@ -28,6 +28,7 @@
         "__OBJ_TYPE": "Instance_RegionPart",
         "cfgName": "myplugin/a10131bb-5480-48a4-8960-5284a91f5603",
         "id": "8751365582395244545",
+        "isLockedInEditor": true,
         "name": "dmg-region-01",
         "position": {
           "x": 28.868709564209,
@@ -63,6 +64,7 @@
         "__OBJ_TYPE": "Instance_RegionPart",
         "cfgName": "myplugin/c1e29cb2-af6f-4131-96d7-7d5920bc793c",
         "id": "8751421392576872449",
+        "isLockedInEditor": true,
         "position": {
           "x": 37.498008728027,
           "y": 59.497505187988,
@@ -78,6 +80,50 @@
           "y": 1.9949450492859,
           "z": 4.6268706321716
         }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/c453c71a-1241-4f17-baaa-e8ba164a2ab8",
+        "id": "8751746446690484225",
+        "name": "monster",
+        "position": {
+          "x": 28.5,
+          "y": 59.003,
+          "z": 11.266995429993
+        },
+        "rotation": {
+          "y": 90.0
+        },
+        "scale": {
+          "x": 2,
+          "y": 2,
+          "z": 2
+        },
+        "size": {
+          "x": 2,
+          "y": 2,
+          "z": 2
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/fab55dbf-8bbd-401d-bad3-4940d82b2faf",
+        "id": "8751747883820548097",
+        "name": "move1",
+        "position": {
+          "x": 20.30700302124,
+          "y": 59.012958526611,
+          "z": 11.531001091003
+        },
+        "scale": {
+          "x": 12,
+          "z": 12
+        },
+        "size": {
+          "x": 12,
+          "y": 0.99999994039536,
+          "z": 12
+        }
       }
     ],
     "name": {
@@ -90,7 +136,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "5edab1e78021522e73d604b03d3b7d67"
+      "setting.json": "014236013bad4c97531a989cec383cf5"
     },
     "VERSION": "0.22"
   }

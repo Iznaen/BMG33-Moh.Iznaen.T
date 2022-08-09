@@ -1,3 +1,4 @@
 REGION_ENTER {
-	GameOver()
+	ShowTip(entity = $obj1, keepTime = 120, textKey = "a1025e45-e5e5-4a09-988e-db780ff450c6", tipType = "1")
+	GameOverToPlayer(entity = $obj1)
 }

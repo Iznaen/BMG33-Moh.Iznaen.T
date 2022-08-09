@@ -1,2 +1,5 @@
+.meta/module*
 
-.meta/img.png
+user_data.json
+checksums.md5
+game_res_config.txt

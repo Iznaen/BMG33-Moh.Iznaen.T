@@ -51,6 +51,38 @@
         "selectable": "true",
         "useAnchor": "false"
       }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/c453c71a-1241-4f17-baaa-e8ba164a2ab8",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8751746446690484225",
+        "name": "monster",
+        "needSync": "true",
+        "position": "x:28.5 y:59.003 z:11.266995429993",
+        "rotation": "x:0 y:90.0 z:0",
+        "scale": "x:2 y:2 z:2",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/fab55dbf-8bbd-401d-bad3-4940d82b2faf",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8751747883820548097",
+        "name": "move1",
+        "needSync": "true",
+        "position": "x:20.30700302124 y:59.012958526611 z:11.531001091003",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:12 y:1 z:12",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
     }
   ],
   "skyBox": [

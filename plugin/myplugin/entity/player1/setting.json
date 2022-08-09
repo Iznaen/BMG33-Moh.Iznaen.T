@@ -24,7 +24,7 @@
   "checkPartTouchEvent": true,
   "clickDistance": 4,
   "collider": {
-    "height": 1.5,
+    "height": 2,
     "offset": {
       "x": 0.0,
       "y": 0.0,
@@ -38,7 +38,7 @@
     },
     "type": "Capsule"
   },
-  "collision": false,
+  "collision": true,
   "damage": 0,
   "damageViewBobbing": [
     {
@@ -90,7 +90,7 @@
   "isPlayer": true,
   "jumpHeight": 0.6,
   "jumpSpeed": 0.5,
-  "maxHp": 30,
+  "maxHp": 100,
   "meetCliffBackRun": true,
   "modelType": "System",
   "moveAcc": 0.2,
