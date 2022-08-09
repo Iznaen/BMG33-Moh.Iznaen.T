@@ -1,0 +1,3 @@
+BLOCK_TOUCH {
+	SetEntityPosition(entity = $obj1, map = "map001", pos = { x = 6, y = 59, z = 11 }, rp = 0, ry = 270)
+}

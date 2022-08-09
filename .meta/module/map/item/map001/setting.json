@@ -1,0 +1,97 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic",
+        "back": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_back.png"
+        },
+        "bottom": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_bottom.png"
+        },
+        "front": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_front.png"
+        },
+        "left": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_left.png"
+        },
+        "right": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_right.png"
+        },
+        "top": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_top.png"
+        }
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "cfgName": "myplugin/a10131bb-5480-48a4-8960-5284a91f5603",
+        "id": "8751365582395244545",
+        "name": "dmg-region-01",
+        "position": {
+          "x": 28.868709564209,
+          "y": 55.507568359375,
+          "z": 16.61004447937
+        },
+        "scale": {
+          "x": 55.9999,
+          "y": 3,
+          "z": 30.9999
+        },
+        "size": {
+          "x": 55.999938964844,
+          "y": 2.9999971389771,
+          "z": 30.999931335449
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/player1",
+        "id": "8751371995762933761",
+        "name": "player1",
+        "position": {
+          "x": 6.5,
+          "y": 59,
+          "z": 11.5
+        },
+        "rotation": {
+          "y": 270
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "cfgName": "myplugin/c1e29cb2-af6f-4131-96d7-7d5920bc793c",
+        "id": "8751421392576872449",
+        "position": {
+          "x": 37.498008728027,
+          "y": 59.497505187988,
+          "z": 11.489489555359
+        },
+        "scale": {
+          "x": 4.59491,
+          "y": 1.99494,
+          "z": 4.62687
+        },
+        "size": {
+          "x": 4.5949153900146,
+          "y": 1.9949450492859,
+          "z": 4.6268706321716
+        }
+      }
+    ],
+    "name": {
+      "value": "map_map001"
+    },
+    "touch_pos": {
+      "up": 600
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "DataSet": [],
+      "setting.json": "5edab1e78021522e73d604b03d3b7d67"
+    },
+    "VERSION": "0.22"
+  }
+}

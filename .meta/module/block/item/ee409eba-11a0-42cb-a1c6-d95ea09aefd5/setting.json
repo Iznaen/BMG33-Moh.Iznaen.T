@@ -1,0 +1,143 @@
+{
+  "data": {
+    "name": {
+      "value": "block_ee409eba-11a0-42cb-a1c6-d95ea09aefd5"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/bedrock.png",
+        "selector": "asset/Texture/Block/bedrock.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/bedrock.png",
+        "selector": "asset/Texture/Block/bedrock.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/bedrock.png",
+        "selector": "asset/Texture/Block/bedrock.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/bedrock.png",
+        "selector": "asset/Texture/Block/bedrock.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/bedrock.png",
+        "selector": "asset/Texture/Block/bedrock.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/glowstone.png",
+        "selector": "asset/Texture/Block/glowstone.png"
+      }
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_SetEntityPosition",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "b9924c2c-1e6e-4b8d-b3c2-8dcc8decb2f7"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Map",
+                        "rawval": "map001"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos",
+                        "rawval": {
+                          "pos": {
+                            "x": 6,
+                            "y": 59,
+                            "z": 11
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 270
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "74e7133f-3258-40d7-b0ea-988d7be511e3"
+              },
+              "pos": {
+                "x": 511.7889065625,
+                "y": 137.83840875
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "b9924c2c-1e6e-4b8d-b3c2-8dcc8decb2f7"
+              },
+              "pos": {
+                "x": 1038,
+                "y": 65
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "996f7184-511e-4569-9668-cd7ccf0af152"
+            },
+            "type": "Trigger_BlockTouch"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "74e7133f-3258-40d7-b0ea-988d7be511e3"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "72cfff6a-5b58-4c61-b96b-2bc60e8ab4b0"
+            },
+            "pos": {
+              "x": 246,
+              "y": 167
+            }
+          },
+          "type": "Trigger_BlockTouch"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "dabad788f865640900e9b271456ea67a",
+      "triggers.bts": "208cc609d75ffcb3c76ba5aedd49d2fd"
+    },
+    "VERSION": "0.22"
+  }
+}

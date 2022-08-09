@@ -1,0 +1,80 @@
+{
+  "blinn": 0,
+  "canBreak": true,
+  "hdr": 0,
+  "hideCloud": true,
+  "scene": [
+    {
+      "class": "RegionPart",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "cfgName": "myplugin/a10131bb-5480-48a4-8960-5284a91f5603",
+        "id": "8751365582395244545",
+        "name": "dmg-region-01",
+        "needSync": "true",
+        "position": "x:28.868709564209 y:55.507568359375 z:16.61004447937",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:55.9999 y:3 z:30.9999",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/player1",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8751371995762933761",
+        "name": "player1",
+        "needSync": "true",
+        "position": "x:6.5 y:59 z:11.5",
+        "rotation": "x:0 y:270 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    },
+    {
+      "class": "RegionPart",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "cfgName": "myplugin/c1e29cb2-af6f-4131-96d7-7d5920bc793c",
+        "id": "8751421392576872449",
+        "name": "Region",
+        "needSync": "true",
+        "position": "x:37.498008728027 y:59.497505187988 z:11.489489555359",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:4.59491 y:1.99494 z:4.62687",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    }
+  ],
+  "skyBox": [
+    {
+      "texture": [
+        "@asset/Texture/SkyBox/Common2/Sky03_right.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_left.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_top.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_bottom.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_back.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_front.png"
+      ]
+    }
+  ],
+  "skyBoxMode": "static_display",
+  "skyBoxRotate": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "skyBoxTexPixFmt": "RGBA8",
+  "skyBoxTexSize": 512,
+  "touchPosY": {
+    "touchdownPosY": -30.0,
+    "touchupPosY": 600
+  }
+}
